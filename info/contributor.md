@@ -6,7 +6,7 @@ To maintain consistency in the commit history of the project, we follow the Angu
 
 The commit header follows the following format:
 
-<type>(<scope>): <subject>
+**`<type>(<scope>): <subject>`**
 
 
 - `<type>`: Indicates the nature of the change. It can be one of the following types:
@@ -20,11 +20,10 @@ The commit header follows the following format:
 - `<scope>` (optional): Indicates the scope of the change. It can be a module name, file, or affected function.
 - `<subject>`: Concise description of the change. It should be written in the imperative present tense, start with a capital letter, and not end with a period.
 
-Examples of commit headers:
-
-feat(users): Add email login feature
-fix(api): Fix bug related to data encoding
-docs(readme): Update installation documentation
+- Examples of commit headers:
+  - feat(users): Add email login feature.
+  - fix(api): Fix bug related to data encoding.
+  - docs(readme): Update installation documentation.
 
 
 ### Commit Body
